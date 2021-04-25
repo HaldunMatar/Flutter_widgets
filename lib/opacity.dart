@@ -21,8 +21,7 @@ class _OurOpacityState extends State<OurOpacity> {
             color: Colors.amber,
             child: Opacity(
               opacity: _visible ? 1.0 : 0.0,
-              child:
-                  const Text("Now you see me 123456, now you don't!77777777"),
+              child: const Text("666666Now you see me , now you don't!"),
             )));
   }
 }
