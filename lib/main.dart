@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_samples/wrap.dart';
 import 'animated_container.dart';
 import 'list_tile.dart';
 import 'opacity.dart';
@@ -77,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: OurListTile(),
+        child: OurWrap(),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
