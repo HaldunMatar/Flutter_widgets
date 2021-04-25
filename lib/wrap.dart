@@ -26,7 +26,7 @@ class OurWrap extends StatelessWidget {
         Chip(
           avatar: CircleAvatar(
               backgroundColor: Colors.blue.shade900, child: Text('JL')),
-          label: Text('Khaldoun2'),
+          label: Text('Khaldoun3'),
         ),
       ],
     );
