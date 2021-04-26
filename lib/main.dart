@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widget_samples/pageView.dart';
+import 'package:widget_samples/table.dart';
 import 'package:widget_samples/wrap.dart';
 import 'animated_container.dart';
 import 'list_tile.dart';
@@ -80,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: OurScrollbar(),
+        child: OurPageView2(),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,

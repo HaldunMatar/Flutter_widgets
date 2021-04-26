@@ -15,20 +15,20 @@ class OurForm extends StatelessWidget {
               hintText: 'Enter your email',
             ),
             validator: (value) {
-              if (value.isEmpty) {
-                return 'Please enter some text';
+              if (!value.contains("@")) {
+                return 'Please enter email  syntax ';
               }
               return null;
             },
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16.0),
+            padding: const EdgeInsets.symmetric(vertical: 50.0),
             child: ElevatedButton(
               onPressed: () {
                 // Validate will return true if the form is valid, or false if
                 // the form is invalid.
                 if (_formKey.currentState.validate()) {
-                  // Process data.
+                  print(' email ok ');
                 }
               },
               child: Text('Submit'),
