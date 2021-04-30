@@ -3,6 +3,9 @@ import 'package:widget_samples/pageView.dart';
 import 'package:widget_samples/table.dart';
 import 'package:widget_samples/wrap.dart';
 import 'animated_container.dart';
+import 'fadeAnimation.dart';
+import 'floating_action_button.dart';
+import 'future_builder.dart';
 import 'list_tile.dart';
 import 'opacity.dart';
 import 'form.dart';
@@ -82,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: OurPageView2(),
+        child: OurFloatingActionButton(),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
