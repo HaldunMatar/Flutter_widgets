@@ -5,34 +5,43 @@ class OurStack extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Container(
-          width: 100,
-          height: 100,
+          //width: 100,
+          //height: 100,
           color: Colors.red,
         ),
         Container(
-          width: 90,
-          height: 90,
+          margin: EdgeInsets.all(10),
+         //width: 90,
+          //height: 90,
           color: Colors.green,
         ),
         Container(
-          padding: EdgeInsets.all(5.0),
+          margin: EdgeInsets.all(25),
+          //padding: EdgeInsets.all(0.5),
           alignment: Alignment.bottomCenter,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: <Color>[
-                Colors.black.withAlpha(0),
-                Colors.black12,
-                Colors.black45
-              ],
-            ),
+            color: Colors.amberAccent,
+            // gradient: LinearGradient(
+            //   begin: Alignment.topCenter,
+            //   end: Alignment.bottomCenter,
+            //   colors:
+            //   <Color>[
+            //     Colors.yellow.withAlpha(100),
+            //     Colors.green,
+            //     Colors.black12,
+            //   ],
+            // ),
           ),
           child: Text(
             "Foreground Text",
             style: TextStyle(color: Colors.white, fontSize: 20.0),
           ),
         ),
+        /*Container(
+          width: 70,
+          height: 70,
+          color: Colors.yellow,
+        ),*/
       ],
     );
   }
