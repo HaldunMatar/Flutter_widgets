@@ -88,7 +88,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
+
         child: OurSliverappbar2(),
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
