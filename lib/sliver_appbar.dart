@@ -22,7 +22,7 @@ class OurSliverappbar extends StatelessWidget {
             // displays the index of the current item.
             (context, index) => ListTile(title: Text('Item #$index')),
             // Builds 1000 ListTiles
-            childCount: 100,
+            childCount: 1000,
           ),
         ),
       ],
